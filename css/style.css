@@ -423,3 +423,6 @@ table.blueTable tfoot td {
     font-size: 14px;
     font-family: "NotoSansJP-Bold";
   }
+  .footer{
+    background-color: #0A68CE;
+  }
