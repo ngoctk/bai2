@@ -1,0 +1,127 @@
+@font-face {
+    font-family: NotoSansJP-Bold;
+    src: url(../fonts/NotoSansJP-Bold.otf);
+}
+
+@font-face {
+    font-family: NotoSansJP-Medium;
+    src: url(../fonts/NotoSansJP-Medium.otf);
+}
+
+@font-face {
+    font-family: NotoSansJP-Regular;
+    src: url(../fonts/NotoSansJP-Regular.otf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.main-content,
+.intro,
+.intro_new,
+.menu-bar-inner,
+.banner {
+    position: absolute;
+}
+
+.banner {
+    background-image: url('../img/Banner1.png');
+    background-size: cover;
+    width: 100%;
+    height: 520px;
+}
+.intro_news{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.intro_new p {
+    font-family: "NotoSansJP-Bold";
+    font-size: 26px;
+    color: #FFFFFF;
+    margin-top: 170px;
+}
+.news_list{
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #dddddd;
+}
+.news-content{
+    display: flex;
+    margin-left: 45px;
+}
+.post_date {
+    display: flex;
+    margin-bottom: 20px;
+}
+.date{
+    color: #B0B0B0;
+    font-family: "NotoSansJP-Regular";
+    font-size: 18px;
+}
+.new{
+    color: #FF3333;
+    margin-left: 20px;
+    border: 1px solid #FF3333;
+    padding: 5px;
+    font-family: "Roboto-Bold";
+    font-size: 16px;
+}
+
+.news-title a {
+    color: #333333;
+    font-family: "NotoSansJP-Regular";
+    font-size: 20px;
+}
+.news-title p{
+    margin-top: 30px;
+    font-family: "NotoSansJP-Regular";
+    font-size: 16px;
+}
+.news-item{
+    margin-right: 50px;
+}
+.a{
+    display: table;
+}
+.arrow{
+    display: table-cell; /* Important */
+    vertical-align: middle; /* Important */
+    font-size: 2.5rem;
+}
+.n{
+    border-bottom: 2px solid #dddddd;
+
+}
+
+.pagination{
+    display: block;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 12px 18px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 50%;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 50%;
+}

@@ -1,0 +1,114 @@
+@font-face {
+    font-family: NotoSansJP-Bold;
+    src: url(../fonts/NotoSansJP-Bold.otf);
+}
+
+@font-face {
+    font-family: NotoSansJP-Medium;
+    src: url(../fonts/NotoSansJP-Medium.otf);
+}
+
+@font-face {
+    font-family: NotoSansJP-Regular;
+    src: url(../fonts/NotoSansJP-Regular.otf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.main-content,
+.intro,
+.intro_new,
+.menu-bar-inner,
+.banner1 {
+    position: absolute;
+}
+
+.banner1 {
+    background-image: url('../img/banner-new.png');
+    background-size: cover;
+    width: 100%;
+    height: 520px;
+}
+.intro_news{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.intro_new p {
+    font-family: "NotoSansJP-Bold";
+    font-size: 26px;
+    color: #FFFFFF;
+    margin-top: 170px;
+}
+
+.news-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_date {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.date{
+    color: #B0B0B0;
+    font-family: "NotoSansJP-Regular";
+    font-size: 20px;
+}
+.new{
+    color: #FF3333;
+    margin-left: 20px;
+    border: 1px solid #FF3333;
+    padding: 5px;
+    font-family: "Roboto-Bold";
+    font-size: 16px;
+}
+
+.news-title a {
+    color: #333333;
+    font-family: "NotoSansJP-Regular";
+    font-size: 20px;
+}
+
+.arrow {
+    font-size: 1.2rem;
+}
+
+.n {
+    border-bottom: 2px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.pagination{
+    display: block;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 12px 18px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 50%;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 50%;
+}
