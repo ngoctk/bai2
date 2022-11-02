@@ -1,0 +1,33 @@
+
+.main-content-top,
+.intro_top,
+.menu-bar-inner,
+.banner3 {
+    position: absolute;
+}
+.banner3 {
+    background-image: url('../img/Banner3.png');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.intro_top {
+    font-family: "NotoSansJP-Bold";
+    font-size: 46px;
+    color: #FFFFFF;
+    margin-top: 170px;
+    margin-left: 200px;
+}
+.main-content-top:first-of-type {
+    position: relative;
+    display: inline-block;
+}
+.main-content-top {
+    background-color: #FFFFFF;
+    width: 1180px;
+    margin-top: 570px;
+}
+.new-event{
+    font-family: "Roboto-Bold";
+    font-size: 62px;
+}
