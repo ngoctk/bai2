@@ -181,39 +181,42 @@ body {
     text-align: center;
     margin: 65px auto;
 }
-.index{
+.index {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 80px 0;
 }
 
 .index-item {
-    list-style: none;
     width: 740px;
+    padding: 35px 45px;
     border-left: 1px solid #dddddd;
     border-right: 1px solid #dddddd;
     border-top: 3px solid #0A68CE;
     border-bottom: 3px solid #0A68CE;
 }
-.index-item li {
+
+.index-item .index-heading a {
+    margin: 35px 60px;
     font-size: 20px;
-    font-family: "NotoSansJP-Bold";
-}
-.index-item span {
-    line-height: 3em;
-}
-.index-content1 {
-    font-size: 16px;
+    font-weight: 600;
     font-family: "NotoSansJP-Bold";
 }
 
-.index-content {
+.index-item .index-title {
     font-size: 16px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: "NotoSansJP-Bold";
+}
+
+.index-span {
+    font-size: 16px;
+    margin-left: 90px;
     font-family: "NotoSansJP-Medium";
 }
-
-.new-1-tile {
+.news-title-1 {
     color: #0A68CE;
     font-size: 26px;
     font-weight: bold;
