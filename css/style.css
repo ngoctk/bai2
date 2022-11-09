@@ -206,7 +206,6 @@ body {
 .index-item .index-title {
     font-size: 16px;
     margin-left: 60px;
-    margin-bottom: 20px;
     font-weight: bold;
     font-family: "NotoSansJP-Bold";
 }
@@ -214,18 +213,25 @@ body {
 .index-span {
     font-size: 16px;
     margin-left: 90px;
+    margin-bottom: 20px;
     font-family: "NotoSansJP-Medium";
 }
 .news-title-1 {
     color: #0A68CE;
     font-size: 26px;
-    font-weight: bold;
+    font-family: "NotoSansJP-Bold";
+    margin-bottom: 30px;
+}
+.new-1-span{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: "NotoSansJP-Regular";
 }
 
-.new-2-tile {
+.news-title-2 {
     color: #0A68CE;
     font-size: 22px;
-    font-weight: bold;
+    font-family: "NotoSansJP-Bold";
 }
 
 .new-4-tile {
