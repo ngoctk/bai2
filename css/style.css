@@ -222,7 +222,7 @@ body {
     font-family: "NotoSansJP-Bold";
     margin-bottom: 30px;
 }
-.new-1-span{
+.news-1-span{
     margin-bottom: 30px;
     font-size: 16px;
     font-family: "NotoSansJP-Regular";
@@ -232,12 +232,38 @@ body {
     color: #0A68CE;
     font-size: 22px;
     font-family: "NotoSansJP-Bold";
+    margin-bottom: 30px;
 }
-
-.new-4-tile {
+.news-content-2{
+    font-size: 16px;
+    font-family: "NotoSansJP-Regular";
+    margin-bottom: 40px;
+}
+.news-title-3 {
     color: #0A68CE;
     font-size: 22px;
-    font-weight: bold;
+    font-family: "NotoSansJP-Bold";
+    margin-bottom: 20px;
+}
+.news-3-span{
+    font-size: 16px;
+    font-family: "NotoSansJP-Regular";
+}
+.news-3-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.news-3-img-tile{
+    font-size: 13px;
+    font-family: "Roboto-Regular";
+    margin-bottom: 60px;
+}
+.news-title-4 {
+    color: #0A68CE;
+    font-size: 22px;
+    font-family: "NotoSansJP-Bold";
+    margin-bottom: 20px;
 }
 
 .new-5-tile {
