@@ -129,7 +129,7 @@ body {
     margin-right: 150px;
 }
 
-.container {
+.content {
     margin-top: 40px;
     margin-left: 100px;
     margin-right: 100px;
@@ -138,7 +138,7 @@ body {
 .main-content {
     background-color: #FFFFFF;
     width: 1180px;
-    margin-top: 420px;
+    margin-top: 380px;
 }
 
 .top-new-tab {
@@ -153,6 +153,9 @@ body {
 }
 
 .top-new-date {
+    color: #B0B0B0;
+    display: flex;
+    justify-content: space-between;
     font-family: "Roboto-Bold";
     font-size: 18px;
 }
@@ -162,7 +165,8 @@ body {
 }
 
 .author {
-    text-align: right;
+    display: block;
+    justify-content: right;
 }
 
 .top-new-content {
@@ -265,33 +269,59 @@ body {
     font-family: "NotoSansJP-Bold";
     margin-bottom: 20px;
 }
-
-.new-5-tile {
+.news-content-4{
+    font-size: 16px;
+    font-family: "NotoSansJP-Regular";
+    margin-bottom: 35px;
+}
+.news-4-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.news-4-img-tile{
+    max-width: 320px;
+    font-size: 12px;
+    font-family: "Roboto-Regular";
+    margin-bottom: 30px;
+}
+.news-title-5 {
     color: #333333;
     font-size: 18px;
     font-family: "NotoSansJP-Bold";
+    margin-bottom: 25px;
 }
-
+.news-content-5{
+    display: flex;
+    margin-bottom: 20px;
+}
+.news-5-span{
+    font-size: 16px;
+    font-family: "Roboto-Regular";
+}
 .yt {
     text-align: center;
     margin-top: 60px;
 }
 
-.table1-tile {
+.table-tile-1 {
     color: #0A68CE;
     font-family: "NotoSansJP-Bold";
     font-size: 22px;
     margin-top: 65px;
+    margin-bottom: 25px;
 }
-
-table.blueTable {
-    border: 1px solid #1C6EA4;
+.table-content-1{
+    border: 1px solid #DFDFDF;
+    border-radius: 7px;
     width: 100%;
-    text-align: left;
     border-collapse: collapse;
 }
+.table-item-1 thead{
+    background-color: #EDEAFF;
+}
 
-table.blueTable td,
+.table td ,
 table.blueTable th {
     border: 1px solid #707070;
     padding: 3px 2px;
@@ -301,7 +331,7 @@ table.blueTable tbody td {
     font-size: 13px;
 }
 
-table.blueTable thead {
+.table thead {
     background: #C1DAF5;
     height: 53px;
 }
@@ -311,10 +341,6 @@ table.blueTable thead th {
     font-weight: bold;
     color: #FFFFFF;
     border-left: 2px solid #D0E4F5;
-}
-
-table.blueTable thead th:first-child {
-    border-left: none;
 }
 
 table.blueTable tfoot {
