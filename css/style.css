@@ -315,45 +315,44 @@ body {
     border: 1px solid #DFDFDF;
     border-radius: 7px;
     width: 100%;
-    border-collapse: collapse;
 }
 .table-item-1 thead{
     background-color: #EDEAFF;
 }
-
-.table td ,
-table.blueTable th {
-    border: 1px solid #707070;
-    padding: 3px 2px;
-}
-
-table.blueTable tbody td {
-    font-size: 13px;
-}
-
 .table thead {
     background: #C1DAF5;
     height: 53px;
 }
 
-table.blueTable thead th {
-    font-size: 15px;
-    font-weight: bold;
-    color: #FFFFFF;
-    border-left: 2px solid #D0E4F5;
+.table td ,
+.table th {
+    border: 1px solid #DFDFDF;
 }
 
-table.blueTable tfoot {
-    font-size: 14px;
-    font-weight: bold;
-    color: #FFFFFF;
-    background: #D0E4F5;
-    border-top: 2px solid #444444;
-}
+/*table.blueTable tbody td {*/
+/*    font-size: 13px;*/
+/*}*/
 
-table.blueTable tfoot td {
-    font-size: 14px;
-}
+
+
+/*table.blueTable thead th {*/
+/*    font-size: 15px;*/
+/*    font-weight: bold;*/
+/*    color: #FFFFFF;*/
+/*    border-left: 2px solid #D0E4F5;*/
+/*}*/
+
+/*table.blueTable tfoot {*/
+/*    font-size: 14px;*/
+/*    font-weight: bold;*/
+/*    color: #FFFFFF;*/
+/*    background: #D0E4F5;*/
+/*    border-top: 2px solid #444444;*/
+/*}*/
+
+/*table.blueTable tfoot td {*/
+/*    font-size: 14px;*/
+/*}*/
 
 .table2-tile {
     color: #0A68CE;
