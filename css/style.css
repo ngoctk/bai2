@@ -315,57 +315,46 @@ body {
     border: 1px solid #DFDFDF;
     border-radius: 7px;
     width: 100%;
+    color: #333333;
+    font-size: 16px;
+    font-family: "NotoSansJP-Bold";
 }
-.table-item-1 thead{
-    background-color: #EDEAFF;
-}
-.table thead {
+
+table.table-item-1 thead {
     background: #C1DAF5;
-    height: 53px;
+}
+.table thead th {
+    color: #333333;
+    border-left: 1px solid #DFDFDF;
+    border-bottom: none;
+    border-top: none;
 }
 
-.table td ,
-.table th {
-    border: 1px solid #DFDFDF;
+table.table-item-1 tbody tr td{
+    border-left: 1px solid #DFDFDF;
 }
 
-/*table.blueTable tbody td {*/
-/*    font-size: 13px;*/
-/*}*/
-
-
-
-/*table.blueTable thead th {*/
-/*    font-size: 15px;*/
-/*    font-weight: bold;*/
-/*    color: #FFFFFF;*/
-/*    border-left: 2px solid #D0E4F5;*/
-/*}*/
-
-/*table.blueTable tfoot {*/
-/*    font-size: 14px;*/
-/*    font-weight: bold;*/
-/*    color: #FFFFFF;*/
-/*    background: #D0E4F5;*/
-/*    border-top: 2px solid #444444;*/
-/*}*/
-
-/*table.blueTable tfoot td {*/
-/*    font-size: 14px;*/
-/*}*/
-
-.table2-tile {
+.table-tile-2 {
     color: #0A68CE;
     font-family: "NotoSansJP-Bold";
     font-size: 22px;
     margin-top: 45px;
+    margin-bottom: 30px;
+}
+.table-content-2{
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    width: 100%;
+    color: #333333;
+    font-size: 16px;
+    font-family: "NotoSansJP-Bold";
+}
+table.table-item-2 tbody tr td{
+    border-left: 1px solid #DFDFDF;
 }
 
-.c {
-    height: 160px;
-}
 
-.table3-tile {
+.table-tile-3  {
     color: #0A68CE;
     font-family: "NotoSansJP-Bold";
     font-size: 22px;
