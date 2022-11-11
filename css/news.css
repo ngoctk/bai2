@@ -48,6 +48,9 @@
     color: #FFFFFF;
     margin-top: 170px;
 }
+.breadcrumbs{
+    margin-top: 60px;
+}
 
 .news-title {
     display: flex;
