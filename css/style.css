@@ -17,10 +17,12 @@
     font-family: Roboto-Bold;
     src: url(../fonts/Roboto-Bold.ttf);
 }
+
 @font-face {
     font-family: Roboto-Regular;
     src: url(../fonts/Roboto-Regular.ttf);
 }
+
 @font-face {
     font-family: Roboto-Medium;
     src: url(../fonts/Roboto-Medium.ttf);
@@ -185,6 +187,7 @@ body {
     text-align: center;
     margin: 65px auto;
 }
+
 .index {
     display: flex;
     justify-content: center;
@@ -220,13 +223,15 @@ body {
     margin-bottom: 20px;
     font-family: "NotoSansJP-Medium";
 }
+
 .news-title-1 {
     color: #0A68CE;
     font-size: 26px;
     font-family: "NotoSansJP-Bold";
     margin-bottom: 30px;
 }
-.news-1-span{
+
+.news-1-span {
     margin-bottom: 30px;
     font-size: 16px;
     font-family: "NotoSansJP-Regular";
@@ -238,67 +243,80 @@ body {
     font-family: "NotoSansJP-Bold";
     margin-bottom: 30px;
 }
-.news-content-2{
+
+.news-content-2 {
     font-size: 16px;
     font-family: "NotoSansJP-Regular";
     margin-bottom: 40px;
 }
+
 .news-title-3 {
     color: #0A68CE;
     font-size: 22px;
     font-family: "NotoSansJP-Bold";
     margin-bottom: 20px;
 }
-.news-3-span{
+
+.news-3-span {
     font-size: 16px;
     font-family: "NotoSansJP-Regular";
 }
-.news-3-img{
+
+.news-3-img {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
 }
-.news-3-img-tile{
+
+.news-3-img-tile {
     font-size: 13px;
     font-family: "Roboto-Regular";
     margin-bottom: 60px;
 }
+
 .news-title-4 {
     color: #0A68CE;
     font-size: 22px;
     font-family: "NotoSansJP-Bold";
     margin-bottom: 20px;
 }
-.news-content-4{
+
+.news-content-4 {
     font-size: 16px;
     font-family: "NotoSansJP-Regular";
     margin-bottom: 35px;
 }
-.news-4-img{
+
+.news-4-img {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
 }
-.news-4-img-tile{
+
+.news-4-img-tile {
     max-width: 320px;
     font-size: 12px;
     font-family: "Roboto-Regular";
     margin-bottom: 30px;
 }
+
 .news-title-5 {
     color: #333333;
     font-size: 18px;
     font-family: "NotoSansJP-Bold";
     margin-bottom: 25px;
 }
-.news-content-5{
+
+.news-content-5 {
     display: flex;
     margin-bottom: 20px;
 }
-.news-5-span{
+
+.news-5-span {
     font-size: 16px;
     font-family: "Roboto-Regular";
 }
+
 .yt {
     text-align: center;
     margin-top: 60px;
@@ -311,7 +329,8 @@ body {
     margin-top: 65px;
     margin-bottom: 25px;
 }
-.table-content-1{
+
+.table-content-1 {
     border: 1px solid #DFDFDF;
     border-radius: 7px;
     width: 100%;
@@ -323,6 +342,7 @@ body {
 table.table-item-1 thead {
     background: #C1DAF5;
 }
+
 .table thead th {
     color: #333333;
     border-left: 1px solid #DFDFDF;
@@ -330,7 +350,7 @@ table.table-item-1 thead {
     border-top: none;
 }
 
-table.table-item-1 tbody tr td{
+table.table-item-1 tbody tr td {
     border-left: 1px solid #DFDFDF;
 }
 
@@ -341,7 +361,8 @@ table.table-item-1 tbody tr td{
     margin-top: 45px;
     margin-bottom: 30px;
 }
-.table-content-2{
+
+.table-content-2 {
     border: 1px solid #DFDFDF;
     border-radius: 5px;
     width: 100%;
@@ -349,70 +370,144 @@ table.table-item-1 tbody tr td{
     font-size: 16px;
     font-family: "NotoSansJP-Bold";
 }
-table.table-item-2 tbody tr td{
+
+table.table-item-2 tbody tr td {
     border-left: 1px solid #DFDFDF;
 }
 
+.table-tile {
+    font-size: 12px;
+    font-family: NotoSansJP-Regular;
+    margin-top: 20px;
+}
 
-.table-tile-3  {
+.table-tile-3 {
     color: #0A68CE;
     font-family: "NotoSansJP-Bold";
     font-size: 22px;
     margin-top: 45px;
+    margin-bottom: 30px;
 }
 
-.Table {
-    border: 1px solid #1C6EA4;
-    border-collapse: collapse;
-    height: 100px;
-    overflow: hidden;
-}
-
-.d {
+.table-item-3 {
+    height: 101px;
+    width: 981px;
     overflow: scroll;
 }
 
-.new-6-tile {
+table.table-item-3 tbody tr td {
+    border: 1px solid #DFDFDF;
+}
+
+/*.scrollbar {*/
+/*    background-color: #F5F5F5;*/
+/*    float: left;*/
+/*    height: 300px;*/
+/*    margin-bottom: 25px;*/
+/*    margin-left: 22px;*/
+/*    margin-top: 40px;*/
+/*    width: 65px;*/
+/*    overflow-y: scroll;*/
+/*}*/
+
+/*.force-overflow {*/
+/*    min-height: 450px;*/
+/*}*/
+
+/*#style-1::-webkit-scrollbar {*/
+/*    width: 6px;*/
+/*    background-color: #F5F5F5;*/
+/*}*/
+/*#style-1::-webkit-scrollbar-thumb {*/
+/*    background-color: #000000;*/
+/*}*/
+/*#style-1::-webkit-scrollbar-track {*/
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+/*    background-color: #F5F5F5;*/
+/*}*/
+
+.news-title-6 {
+    margin-top: 135px;
+    margin-bottom: 40px;
     color: #0A68CE;
     font-size: 26px;
     font-family: "NotoSansJP-Bold";
 }
 
-.new-7-tile {
+.news-content-6 {
+    margin-bottom: 45px;
+    font-size: 16px;
+    font-family: NotoSansJP-Regular;
+}
+
+.news-title-7 {
     color: #0A68CE;
     font-size: 22px;
+    margin-bottom: 30px;
     font-family: "NotoSansJP-Bold";
 }
 
-.new-7-content1 {
+.news-content-7 {
     color: #333333;
+    margin-bottom: 25px;
     font-size: 16px;
     font-family: "NotoSansJP-Bold";
 }
 
-.new-7-content2 {
+.news-7-li {
     display: list-item;
-    line-height: 30px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: NotoSansJP-Regular;
 }
 
-.new-8-tile {
+.news-7-span {
+    margin-bottom: 35px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: NotoSansJP-Regular;
+}
+
+.news-title-8 {
     color: #333333;
+    margin-bottom: 25px;
     font-size: 16px;
     font-family: "NotoSansJP-Bold";
+}
+
+.news-content-8 {
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family: "NotoSansJP-Regular";
+}
+
+.news-8-span {
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: NotoSansJP-Regular;
 }
 
 .text-block {
     background-color: #F7F7F7;
     width: 980px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 
-.h {
+.text-block-content {
     padding: 40px 40px 40px 40px;
     color: #333333;
     font-size: 16px;
     font-family: "NotoSansJP-Bold";
+}
+
+.img-tile {
+    max-width: 240px;
+    margin-top: 10px;
+    margin-bottom: 37px;
+    font-size: 12px;
+    font-family: Roboto-Regular;
 }
 
 .quote {
@@ -422,7 +517,7 @@ table.table-item-2 tbody tr td{
     margin: 0 auto;
 }
 
-.j {
+.quote-content {
     padding: 30px 30px 30px 30px;
     color: #333333;
     font-size: 16px;
@@ -431,6 +526,10 @@ table.table-item-2 tbody tr td{
 
 .quote-url {
     text-align: right;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    font-size: 14px;
+    font-family: NotoSansJP-Regular;
 }
 
 .list_new {
@@ -600,6 +699,7 @@ table.table-item-2 tbody tr td{
     font-size: 18px;
     font-family: "NotoSansJP-Bold";
 }
+
 .item_row.list h2 {
     padding: 10px 0 15px 0;
     font-size: 14px;
