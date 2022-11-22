@@ -207,7 +207,89 @@
     font-size: 62px;
     font-family: Roboto-Medium;
 }
+.about-tile{
+    font-size: 16px;
+    font-family: NotoSansJP-Bold;
+    margin-bottom: 55px;
+}
 .about-item{
     display: flex;
     justify-content: space-between;
 }
+.item_img{
+   margin-top: 23px;
+}
+.item_span{
+    width: 818px;
+    font-size: 16px;
+    font-family: NotoSansJP-Regular;
+}
+.alt{
+    text-align: center;
+    margin-top: 50px;
+}
+.youtube{
+    margin-top: 30px;
+    margin-bottom: 121px;
+}
+.altcircle_tile{
+    text-align: center;
+    font-size: 30px;
+    font-family: NotoSansJP-Bold;
+}
+.altcircle_tile span{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.altcircle_img{
+    margin-top: 90px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.altcircle_list{
+    width: 660px;
+    border: 1px solid #FFAC3E;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: NotoSansJP-Regular;
+    padding: 20px;
+    margin: 0 auto 135px;
+}
+.altcircle_list ion-icon{
+    color: #FFAC3E;
+}
+.tab-tile{
+    text-align: center;
+    font-size: 30px;
+    font-family: NotoSansJP-Bold;
+    margin-bottom: 75px;
+}
+.tab_tile span{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.tab-button{
+    border: 0;
+    border-bottom: 2px solid #707070;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: NotoSansJP-Bold;
+}
+.tab-item{
+    width: 900px;
+    margin: 40px auto 0;
+    display: flex;
+
+}
+.tab-item-img{
+    margin-top: 26px;
+}
+.table-item-span{
+    border: 1px solid #0A68CE;
+    padding: 20px;
+    margin-left: 25px;
+}
+/*.table-item-span p{*/
+/*    margin-bottom: 0;*/
+/*}*/
