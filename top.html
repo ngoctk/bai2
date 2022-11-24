@@ -258,6 +258,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Tab -->
                         <div class="tab">
                             <div class="tab-tile">
                                 <ion-icon name="remove-outline"></ion-icon>
@@ -265,22 +266,22 @@
                                 <ion-icon name="remove-outline"></ion-icon>
                             </div>
                             <div class="tab-bar">
-                                <button class="tab-button">マーケティング <br>
+                                <button class="tab-button" data-tab="#Marketing">マーケティング <br>
                                     戦略策定</button>
-                                <button class="tab-button">デジタル <br>
+                                <button class="tab-button" data-tab="#Communication">デジタル <br>
                                     コミュニケーション</button>
-                                <button class="tab-button">デジタル <br>
+                                <button class="tab-button" data-tab="#Content">デジタル <br>
                                     コンテンツ</button>
-                                <button class="tab-button">エンタープライズ <br>
+                                <button class="tab-button" data-tab="#Enterprise">エンタープライズ <br>
                                     EC</button>
-                                <button class="tab-button">コンタクト <br>
+                                <button class="tab-button" data-tab="#Contact">コンタクト <br>
                                     センター</button>
-                                <button class="tab-button">データ <br>
+                                <button class="tab-button" data-tab="#Data">データ <br>
                                     プラットフォーム</button>
-                                <button class="tab-button">ビジネスプロセス <br>
+                                <button class="tab-button" data-tab="#Business">ビジネスプロセス <br>
                                     アウトソーシング</button>
                             </div>
-                            <div id="Marketing" class="tab-content">
+                            <div id="Marketing" class="tab-content" style="display:none">
                                 <div class="tab-item">
                                     <div class="tab-item-img"><img src="img/nam.png"></div>
                                     <div class="table-item-span">
@@ -328,11 +329,86 @@
                                 <h2>Tokyo</h2>
                                 <p>Tokyo is the capital of Japan.</p>
                             </div>
-                            <div id="business" class=tab-content" style="display:none">
+                            <div id="Business" class="tab-content" style="display:none">
                                 <h2>Tokyo</h2>
                                 <p>Tokyo is the capital of Japan.</p>
                             </div>
                         </div>
+                        <!-- End Tab -->
+                        <!-- Service -->
+                        <div class="service"></div>
+                        <!-- End Service -->
+                        <!-- Download -->
+                        <div class="download">
+                            <div class="download-tile">
+                                <p>Download </p>
+                                <div class="button-download">
+                                    <button class="button2">コラム一覧へ<ion-icon style="padding-left: 30px ;"
+                                            name="arrow-forward-outline"></ion-icon></button>
+                                </div>
+                            </div>
+                            <p class="download-p">資料ダウンロード</p>
+                            <div class="download-list">
+                                <div class="down-list-item">
+                                    <div class="down-list-item-top">
+                                        <p>セミナー</p>
+                                    </div>
+                                    <div class="down-list-item-bottom">
+                                        <div class="down-list-item-bottom-img">
+                                            <img src="img/img-service-01.png" alt="">
+                                        </div>
+                                        <div class="down-list-item-bottom-date">
+                                            <p>2021/10/13</p>
+                                        </div>
+                                        <div class="down-list-item-bottom-content">
+                                            <p>Webサポートとコンタクトセンターとの統合！Web-UX具体的改善で顧客体験を更に高める！SCSKの…</p>
+                                        </div>
+                                        <div class="button-download">
+                                            <button class="button3">資料ダウンロード<ion-icon style="padding-left: 30px ;"
+                                                    name="arrow-forward-outline"></ion-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="down-list-item">
+                                    <div class="down-list-item-top">
+                                        <p>CX資料</p>
+                                    </div>
+                                    <div class="down-list-item-bottom">
+                                        <div class="down-list-item-bottom-img">
+                                            <img src="img/img-service-02.png" alt="">
+                                        </div>
+                                        <div class="down-list-item-bottom-date">
+                                            <p>2021/10/13</p>
+                                        </div>
+                                        <div class="down-list-item-bottom-content">
+                                            <p>CX（カスタマーエクスペリエンス）とは</p>
+                                        </div>
+                                        <div class="button-download">
+                                            <button class="button3">資料ダウンロード<ion-icon style="padding-left: 30px ;"
+                                                    name="arrow-forward-outline"></ion-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="down-list-item">
+                                    <div class="down-list-item-top">
+                                        <p>CX資料</p>
+                                    </div>
+                                    <div class="down-list-item-bottom">
+                                        <div class="down-list-item-bottom-img">
+                                            <img src="img/img-service-03.png" alt="">
+                                        </div>
+                                        <div class="down-list-item-bottom-content">
+                                            <p>デジタルコミュニケーションがビジネスを飛躍的に成長させる</p>
+                                        </div>
+                                        <div class="button-download">
+                                            <button class="button3">資料ダウンロード<ion-icon style="padding-left: 30px ;"
+                                                    name="arrow-forward-outline"></ion-icon></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Download -->
                     </div>
                     <!-- End Breadcrumb -->
                 </div>
@@ -395,13 +471,13 @@
 
 </html>
 <script>
-    window.onload = function () {
-        document.querySelectorAll('button').forEach(function (item) {
-            item.addEventListener('click', function () {
-                alert('click');
-            })
-        })
-    }
+    // window.onload = function() {
+    //     document.querySelectorAll('button').forEach(function (item) {
+    //         item.addEventListener('click', function (){
+    //             alert('click');
+    //         })
+    //     })
+    // }
 
     // function openTab(tabName) {
     //     var i;
@@ -411,4 +487,17 @@
     //     }
     //     document.getElementById(tabName).style.display = "block";
     // }
+    function setActiveTab(tab_id) {
+        $('.tab-button').removeClass('active');
+        $("button[data-tab='" + tab_id + "']").addClass('active');
+
+        $('.tab-content').removeClass('active');
+        $(tab_id).addClass('active');
+    };
+    jQuery(document).ready(function ($) {
+        $('.tab-button').click(function () {
+            var tab = $(this).data('tab');
+            setActiveTab(tab);
+        });
+    });
 </script>
