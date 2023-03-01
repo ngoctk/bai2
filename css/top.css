@@ -65,9 +65,13 @@
     margin-top: 570px;
 }
 
-.notify {
-    font-size: 16px;
+.notify{
     margin-bottom: 60px;
+}
+
+.notify a{
+    color: black;
+    font-size: 16px;
     font-family: NotoSansJP-Bold;
 }
 
@@ -104,7 +108,7 @@
 }
 
 .post_list-item {
-    max-width: 510px;
+    width: 510px;
 }
 
 .post_date {
@@ -131,6 +135,12 @@
     color: #333333;
     font-family: "NotoSansJP-Regular";
     font-size: 16px;
+}
+.news-title-a{
+    max-width: 428px;
+}
+.news-title-b{
+    min-width: 14px;
 }
 
 .arrow {
@@ -163,6 +173,10 @@
     width: 420px;
 }
 
+.column_list-span a{
+    color: #000;
+}
+
 .column_list_date {
     display: flex;
     margin-top: 20px;
@@ -182,7 +196,7 @@
 
 .news-content {
     display: flex;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .post_date {
@@ -205,18 +219,21 @@
     font-size: 16px;
 }
 
-.news-title a {
-    color: #333333;
-    font-family: "NotoSansJP-Medium";
-    font-size: 20px;
-}
 
 .news-item {
     margin-right: 50px;
 }
-
+.news-item a {
+    color: #000;
+    font-family: "NotoSansJP-Medium";
+    font-size: 18px;
+}
+.news-item-inner{
+    width: 380px;
+}
 .a {
     display: table;
+    width: 24px;
 }
 
 .arrow {
@@ -334,6 +351,7 @@
   .tab-links.active {
     background:#fff;
     color:#0A68CE;
+    border-bottom: 3px solid #0A68CE;
   }
   
   /* tab content */
@@ -355,7 +373,7 @@
 
 .tab-links {
     border: 0;
-    border-bottom: 2px solid #707070;
+    border-bottom: 3px solid #EDEAFF;
     background-color: #FFFFFF;
     padding: 10px 15px;
     font-size: 16px;
@@ -369,6 +387,36 @@
 
 .tab-item-img {
     margin-top: 26px;
+}
+
+.btn-tab{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+
+.button5 {
+    width: 171px;
+    height: 43px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Roboto-Bold";
+}
+
+.button4{
+    width: 171px;
+    height: 43px;
+    border: 1px solid #0A68CE;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #0A68CE;
+    font-size: 16px;
+    font-family: NotoSansJP-Bold;
+    margin-left: 22px;
 }
 
 .table-item-span {

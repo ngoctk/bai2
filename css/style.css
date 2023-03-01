@@ -70,7 +70,7 @@ body {
 
 .menu-bar-inner {
     padding: 17px 30px 13px;
-    width: 85%;
+    width: 100%;
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -146,6 +146,9 @@ body {
 .top-new-tab {
     font-family: "NotoSansJP-Regular";
     font-size: 14px;
+}
+.top-new-tab a{
+    color: #000;
 }
 
 .l {
@@ -628,6 +631,13 @@ table.table-item-4 thead {
     border-radius: 4px 4px;
     padding: 15px 15px;
     margin: 30px 0;
+}
+.post_content a{
+    color: black;
+}
+.post_content {
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 .button_list {
